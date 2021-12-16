@@ -8,8 +8,33 @@ html {
     font-size: 62.5%;
 }
 
-#image {
+#container {
+    position: relative;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
+#hours {
+    width: 4px;
+    height: 12vh;
+    position: absolute;
+    background: #2d2424;
+    transform-origin: center bottom;
+}
+
+#minutes {
+    width: 4px;
+    height: 20vh;
+    position: absolute;
+    background: #2d2424;
+    transform-origin: center bottom;
+}
+
+#seconds{
+    width: 2px;
+    height: 24vh;
+    border: 1px solid black;
+    position: absolute;
+    transform-origin: center bottom;
+}
