@@ -4,7 +4,6 @@ const seconds = document.getElementById("seconds");
 
 
 let Time = {
-
     test(){
         setInterval(() => {
             let date = new Date();
